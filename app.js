@@ -1,7 +1,17 @@
 
-const Cards =()=>{
+const Reviews =()=>{
     return(
-        <div className="card">Cards</div> 
+        <div className="reviews">Reviews</div> 
+    )
+}
+const AverageRating =()=>{
+    return(
+        <div className="averageRating">AverageRating</div> 
+    )
+}
+const SentimentAnalysis =()=>{
+    return(
+        <div className="sentimentAnalysis">SentimentAnalysis</div> 
     )
 }
 const Map =()=>{
@@ -26,9 +36,9 @@ const Board =()=>{
     return(
         <div className="board">
         <Sidebar />
-        <Cards />
-        <Cards />
-        <Cards />
+        <Reviews />
+        <AverageRating/>
+        <SentimentAnalysis />
         <Map />
         </div>
     )
