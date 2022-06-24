@@ -1,0 +1,67 @@
+:root {
+    --dark-Gray: #A9A9A9;
+    --Light-Gray: #D3D3D3;
+    --Gainsboro: #DCDCDC;
+    --Silver: #C0C0C0;
+    --light-Salmon: #FFA07A;
+    --Medium-Purple: #9370DB;
+    --maastricht-blue: #0b132b;
+    --yankees-blue: #1C2541;
+    --sea-serpent: #5bc0be;
+    --aquamarine: #6fffe9;
+    --react: #00d8ff; 
+  }
+  
+  html {
+    background: var(white);
+  }
+
+  body {
+    margin: 0;
+    font-family: monospace;
+    color: white;
+  }
+
+  .container  {
+    display: flex;
+    background: var(  --Light-Gray);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 60vh;
+    align-items: flex-start;
+  }
+  
+  .board {
+    flex-basis: 60%;
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    grid-template-rows: 15vw 15vw 15vw;
+    color: black;
+    justify-items: stretch; 
+    justify-content: center;
+  }
+  
+  .board  div {
+    display: flex;
+    align-items: center;
+    border: 3px solid var(--react);
+    background: var( --Silver);
+  }
+
+  .sidebar {
+    flex-basis: 60%;
+    display: grid;
+    justify-items: stretch; 
+}
+
+.sidebar div {
+    display: flex;
+    grid-template-columns: 5vh ;
+}
+ 
+.cards{
+
+}
+.map{
+
+}
