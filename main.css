@@ -13,12 +13,12 @@
 
   body {
     margin: 0;
-    font-family: monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: Black;
   }
   .sidebar {grid-area: sidebar; }
-  .cards{grid-area:cards;}
-  .map{grid-area:map;}
+  .cards {grid-area:cards;}
+  .websiteVisitors {grid-area:map;}
 
  .container  {
     padding: 10px;
@@ -34,8 +34,8 @@
     background: var(  --Light-Gray);
     display: grid;
     grid-template-areas:
-    'sidebar cards cards cards cards cards'
-    'sidebar map map map map map';
+    'sidebar cards cards cards'
+    'sidebar map map map ';
     gap: 10px;
     padding: 10px;
    
@@ -48,7 +48,13 @@
     padding: 20px 0;
     font-size: 30px;
   }
+  /* h4 {
+
+  } */
 
 /* .sidebar {grid-area: sidebar;}
 .cards{grid-area:cards;}
-.map{grid-area:map;} */
+.map{grid-area:map;
+.Reviews
+.AverageRating
+.sentimentAnalysis} */

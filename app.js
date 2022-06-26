@@ -1,34 +1,45 @@
 
 const Reviews =()=>{
     return(
-        <div className="reviews">Reviews</div> 
+        <div className="reviews">
+        {/* <div className="cards"> */}
+        <h6>Reviews</h6>
+        </div> 
     )
 }
 const AverageRating =()=>{
     return(
-        <div className="averageRating">AverageRating</div> 
+        <div className="averageRating">
+        {/* <div className="cards"> */}
+              <h6>AverageRating</h6>
+        </div> 
     )
 }
 const SentimentAnalysis =()=>{
     return(
-        <div className="sentimentAnalysis">SentimentAnalysis</div> 
+        <div className="sentimentAnalysis">
+        {/* <div className="cards"> */}
+            <h6>SentimentAnalysis</h6>
+        </div> 
     )
 }
-const Map =()=>{
+const WebsiteVisitors =()=>{
     return(
-        <div className="map">Large Map</div>
+        <div className="websiteVisitors">
+            <h6>Website visitors</h6>
+        </div>
         
     )
 }
 const Sidebar =()=>{
     return(
         <div className="sidebar">
-            <h4>Dashboard</h4>
-            <h4>Widget</h4>
-            <h4>Reviews</h4>
-            <h4>Customers</h4>
-            <h4>Online Analysis</h4>
-            <h4>Settings</h4>
+            <h6>Dashboard</h6>
+            <h6>Widget</h6>
+            <h6>Reviews</h6>
+            <h6>Customers</h6>
+            <h6>Online Analysis</h6>
+            <h6>Settings</h6>
         </div>
     )
 }
@@ -39,7 +50,8 @@ const Board =()=>{
         <Reviews />
         <AverageRating/>
         <SentimentAnalysis />
-        <Map />
+        {/* <Cards /> */}
+        <WebsiteVisitors />
         </div>
     )
 }
