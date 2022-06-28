@@ -15,13 +15,19 @@
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: Black;
+    background-image: url("./images/alessio-soggetti-cfKC0UOZHJo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
   }
-  .sidebar {grid-area: sidebar; }
+   .sidebar {
+    grid-area: sidebar; }
   .cards {grid-area:cards;}
   .websiteVisitors {grid-area:map;}
 
  .container  {
     padding: 10px;
+    border-color: red;
   }
   .container > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -29,8 +35,8 @@
     padding: 20px 0;
     font-size: 30px; 
 } 
-  
-  .board {
+
+   .board {
     background: var(  --Light-Gray);
     display: grid;
     grid-template-areas:
@@ -38,8 +44,7 @@
     'sidebar map map map ';
     gap: 10px;
     padding: 10px;
-   
-  }
+  } 
   
   .board  div {
     border: 3px solid var(--react);
@@ -47,14 +52,28 @@
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+
   }
-  /* h4 {
 
-  } */
+  /* .board {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+  }
 
-/* .sidebar {grid-area: sidebar;}
-.cards{grid-area:cards;}
-.map{grid-area:map;
-.Reviews
-.AverageRating
-.sentimentAnalysis} */
+  .sidebar{
+    border: 2px solid red;
+  }
+  .reviews{
+    border: 2px solid violet;
+  }
+  .averageRating{
+    border: 2px solid green;
+  }
+  .sentimentAnalysis{
+    border: 2px solid white;
+  }
+  .websiteVisitors{
+    border: 2px solid blue;
+  }  */
+

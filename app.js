@@ -40,6 +40,15 @@ const Sidebar =()=>{
             <h6>Customers</h6>
             <h6>Online Analysis</h6>
             <h6>Settings</h6>
+            {/* <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+
+            </ul> */}
         </div>
     )
 }
