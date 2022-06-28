@@ -4,6 +4,7 @@ const Reviews =()=>{
         <div className="reviews">
         {/* <div className="cards"> */}
         <h6>Reviews</h6>
+        <h5>1,281</h5>
         </div> 
     )
 }
@@ -12,6 +13,7 @@ const AverageRating =()=>{
         <div className="averageRating">
         {/* <div className="cards"> */}
               <h6>AverageRating</h6>
+              <h5>4.6</h5>
         </div> 
     )
 }
@@ -20,13 +22,23 @@ const SentimentAnalysis =()=>{
         <div className="sentimentAnalysis">
         {/* <div className="cards"> */}
             <h6>SentimentAnalysis</h6>
+            <h5>960</h5>
+            <h5>122</h5>
+            <h5>321</h5>
         </div> 
+    )
+}
+const Card=()=>{
+    return(
+        <div id="card"></div>
     )
 }
 const WebsiteVisitors =()=>{
     return(
         <div className="websiteVisitors">
             <h6>Website visitors</h6>
+            <h5>821</h5>
+                <Card />
         </div>
         
     )
